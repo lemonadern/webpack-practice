@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import HelloWorld from './HelloWorld'
+
 
 ReactDOM.render(
     <React.StrictMode>
-        <p>HI</p>
+        <HelloWorld />
     </React.StrictMode>,
     document.getElementById('app')
 )
